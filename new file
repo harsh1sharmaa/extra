@@ -1,0 +1,12 @@
+Ref: https://docs.phalcon.io/4.0/en/cache
+
+What is Cache: 
+It is a concept which stores data in a memory from which we can get data very fast. So usually we stores that data which is used most frequently in our application
+Initiate cache, store in DI and then use it whereever we want to set or get data
+
+
+Implement cache
+
+Use same translation task into a new repo and do following
+Whenever we initializes translation strings then first need to check if it is present in cache. If YES then pick it from cache 
+If NOT then pick translation from basic approach and store in cache
